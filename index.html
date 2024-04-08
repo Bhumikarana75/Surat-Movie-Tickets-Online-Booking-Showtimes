@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Movie Tickets Online Booking & Showtimes near you - BookMyShow</title>
+
+    <!-- bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- fav icon -->
+    <link rel="icon" href="assets/img/movie-camera.png">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- nav start  -->
+    <section class="nav position-sticky top-0 bg-white" style="z-index: 999;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <!-- logo and search box  -->
+                    <div class="col-6 d-flex">
+                        <div class="logo p-3 pe-3">
+                            <img src="assets/img/logo.png" width="80px" alt="">
+                        </div>
+                        <div class="search-box rounded-2 p-3 d-flex position-relative">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="ps-5 rounded-2"
+                                placeholder="Search for Movies, Events, Plays, Sports and Activities"
+                                style="width: 550px; padding-left: 10px; border: 1px solid #999 ;"></input>
+                        </div>
+                    </div>
+                    <!-- login and cities and sidebar  -->
+                    <div class="col-6 p-3 position-relative ">
+                        <div class="city">
+                            <a href="#">
+                                <span type="button"
+                                    style=" color: black; position: absolute; right: 140px; font-size: 12px; border: 1px solid #666;"
+                                    class="btn py-1 px-2 rounded-2" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="fa-solid fa-location-dot me-1"></i>Surat <i
+                                        class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                        </div>
+
+                        <div class="login">
+                            <a href="#">
+                                <span
+                                    style=" color: black; position: absolute; right: 60px; font-size: 12px; border: 1px solid #666;"
+                                    class="btn py-1 px-2 rounded-2" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#loginpage">
+                                    <i class="fa-solid fa-user me-1"></i> login
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- menu bar  -->
+                <div class="col-12 bg-secondary">
+                    <div class="col-10">
+                        <div class="menu pt-3">
+                            <ul class="d-flex p-0" style="font-size: 14px;">
+                                <li class="ps-0 pe-2">
+                                    <a href="index.html" class=" text-black" style="text-decoration: none;"><i
+                                            class="fa-solid fa-house pe-1" style="font-size: 12px; "></i>Home</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="showtiming.html" class=" text-black" style="text-decoration: none;"><i
+                                            class="fa-solid fa-ticket pe-1"></i>Showtiming</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="Cinemas.html" class=" text-black" style="text-decoration: none;"><i
+                                            class="fa-solid fa-clapperboard pe-1"></i>Cinemas</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="Offers.html" class=" text-black" style="text-decoration: none;"><i
+                                            class="fa-solid fa-percent pe-1"></i>Offers</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="Investors-section.html" class=" text-black"
+                                        style="text-decoration: none;"><i
+                                            class="fa-solid fa-arrow-trend-up pe-1"></i>Investors section</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="ODR-Portal.html" target="_blank" class=" text-black"
+                                        style="text-decoration: none;"><i class="fa-solid fa-user pe-1"></i>ODR
+                                        Portal</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="#" class=" text-black" style="text-decoration: none;"
+                                        class="btn px-2 rounded-2" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#loginpage">
+                                        <i class="fa-solid fa-star pe-1"></i>Passport</a>
+                                </li>
+                                <li class="pe-2">
+                                    <a href="#" class="position-relative text-black" style="text-decoration: none;"><i
+                                            class="fa-solid fa-angle-down pe-1"></i>More</a>
+
+                                    <ul class="more-dropdown position-absolute">
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Gift Card</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Bulk Gift
+                                                Card</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Advertise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                style="font-size: 16px; padding: 0px 0px 20px 0;">Merchandise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                style="font-size: 16px; padding: 0px 0px 20px 0;">Experiences</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Coroprate
+                                                Books</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Oscars</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">FAQs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Career</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Feedback</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">News</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">Investors
+                                                Section</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">NVSP</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="font-size: 16px; padding: 0px 0px 20px 0;">NEST</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal-1 cities -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        <div class="search rounded-2 p-3 d-flex position-relative">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="ps-5 rounded-2" placeholder="Search for Your city"
+                                style="width: 1050px; padding-left: 10px; border: 1px solid #999 ;"></input>
+                        </div>
+                        <span class="ms-3" style="color: #234b9e;"><i class="fa-solid fa-map-pin pe-2"></i>
+                            Detect my location</span>
+                    </h1>
+                </div>
+
+                <h5 style="text-align: center; margin: 20px 0;">Popular cities</h5>
+                <div class="modal-body d-flex text-center">
+                    <div class="city1">
+                        <img src="assets/img/mumbai.avif" width="80px" alt="">
+                        <span>Mumbai</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/ncr.avif" width="80px" alt="">
+                        <span>Delhi-NCR</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/bang.png" width="80px" alt="">
+                        <span>Bengluru</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/hyd.png" width="80px" alt="">
+                        <span>Hydrabad</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/ahd.avif" width="80px" alt="">
+                        <span>Ahmadabad</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/chd.avif" width="80px" alt="">
+                        <span>Chandigarh</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/chen.avif" width="80px" alt="">
+                        <span>Chennai</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/pune.png" width="80px" alt="">
+                        <span>Pune</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/kolk-selected.avif" width="80px" alt="">
+                        <span>Kolkata</span>
+                    </div>
+                    <div class="city1">
+                        <img src="assets/img/koch.avif" width="80px" alt="">
+                        <span>Kochi</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <h5 style="text-align: left; color: #234b9e;">View All cities</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal-2 login  -->
+    <div class="modal fade" id="loginpage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/login.gif" width="350px" style="margin-left: 50px;" alt="">
+                    <h3 style="text-align: center;">Verify Phone Number</h3>
+                    <p style="text-align: center;">Enter your phone number to proceed</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="col-12 position-relative">
+                        <input type="tell" class="ms-3 p-3 " placeholder="Phone Number"
+                            style=" width: 450px; height: 50px; border-radius: 8px;">
+                        <i class="fa-solid fa-phone position-absolute"
+                            style="right: 20px; top: 18px; font-size: 18px; color: #234b9e;"></i>
+                    </div>
+                </div>
+                <button type="button" class="btn bg-primary text-white text-center mb-3 ms-4"
+                    style="font-size: 20px; width: 450px; height: 50px;">Proceed</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- offcanvas sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Hey!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+                lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner start -->
+    <section class="banner bg-secondary">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- banner  -->
+                <div class="col-12">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active img-fluid " style="margin-bottom: 20px;">
+                                <img src="assets/img/11474_XsMmGtxo.avif" height="500px" class="d-block w-100 rounded-3"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item img-fluid" style="margin-bottom: 20px;">
+                                <img src="assets/img/12744_p5zOvu10.webp" height="500px" class="d-block w-100 rounded-3"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item img-fluid" style="margin-bottom: 20px;">
+                                <img src="assets/img/12851_xIsddGFJ.jpg" height="500px" class="d-block w-100 rounded-3"
+                                    alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- quick book  -->
+                <div class="col-12 d-flex my-3" style="font-size: 20px; margin-left: 180px; font-size: 16px;">
+                    <div class="book pe-3 mt-2">
+                        <span style="font-size: 16px; font-weight: 800;">Quick Book</span>
+                    </div>
+
+                    <div class="movie pe-4 position-relative">
+                        <input type="text" placeholder="Select Movie">
+                        <i class="fa-solid fa-angle-down"></i>
+
+                        <div class="movie-dropdown position-absolute">
+                            <ul style="padding:6px 0;">
+                                <li>
+                                    <a href="#">CREW</a>
+                                </li>
+                                <li>
+                                    <a href="#">GODZILLA X KONG : THE NEW EMPIRE</a>
+                                </li>
+                                <li>
+                                    <a href="#">MADGAON EXPRESS</a>
+                                </li>
+                                <li>
+                                    <a href="#">YODHA</a>
+                                </li>
+                                <li>
+                                    <a href="#">SHAITAAN</a>
+                                </li>
+                                <li>
+                                    <a href="#">KUNG FU PANDA 4</a>
+                                </li>
+                                <li>
+                                    <a href="#">ARTTICLA 370</a>
+                                </li>
+                                <li>
+                                    <a href="#">SWANTANTRA VEER SAVARKAR</a>
+                                </li>
+                                <li>
+                                    <a href="#">AADUJEEVITHAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">LAAPATAA LADIES</a>
+                                </li>
+                                <li>
+                                    <a href="#">TRAILERS SCREENING SHOW</a>
+                                </li>
+                                <li>
+                                    <a href="#">TILLU SQUARE</a>
+                                </li>
+                                <li>
+                                    <a href="#">KASOOMBO</a>
+                                </li>
+                                <li>
+                                    <a href="#">BENGAL 1947</a>
+                                </li>
+                                <li>
+                                    <a href="#">YUVA</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="date pe-4 position-relative">
+                        <input type="text" placeholder="Select Date">
+                        <i class="fa-solid fa-angle-down"></i>
+
+                        <div class="date-dropdown position-absolute">
+                            <ul style="padding:6px 0;">
+                                <li>
+                                    <a href="#">Today, 3 March</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tommorrow, 4 March</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fri, 4 March</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sat, 4 March</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sun, 4 March</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cinema pe-4 position-relative">
+                        <input type="text" placeholder="Select Cinema">
+                        <i class="fa-solid fa-angle-down"></i>
+
+                        <div class="cinema-dropdown position-absolute">
+                            <ul style="padding:6px 0;">
+                                <li>
+                                    <a href="#">INOX Raj Imperal Surat</a>
+                                </li>
+                                <li>
+                                    <a href="#">INOX Surat DR World Surat</a>
+                                </li>
+                                <li>
+                                    <a href="#">INOX Reliance Mall Surat</a>
+                                </li>
+                                <li>
+                                    <a href="#">PVR Rahul Raj Surat</a>
+                                </li>
+                                <li>
+                                    <a href="#">INOX VR Surat, Dumas Road Surat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="time pe-4 position-relative">
+                        <input type="text" placeholder="Select Time">
+                        <i class="fa-solid fa-angle-down"></i>
+
+                        <div class="time-dropdown position-absolute">
+                            <ul style="padding:6px 0;">
+                                <li>
+                                    <a href="#">10:30 AM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">11:30 AM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">1:15 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">2:15 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">4:00 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">5:00 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">6:45 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">9:35 PM - Hindi</a>
+                                </li>
+                                <li>
+                                    <a href="#">10:35 PM - Hindi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#" style="text-decoration: none;">
+                            <span
+                                style="font-weight: 700; padding: 13px 20px; font-size: 16px; background-color: #234b9e; color: white; border-radius: 6px; box-shadow: 1px 1px 4px -2px black;">Book</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- showtiming start  -->
+    <section class="Showtimes">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="show">
+                    <div class="col-12">
+                        <!-- show-timing  -->
+                        <div class="show-content button">
+                            <ul class="d-flex position-relative" style="margin:10px 0 0 150px;">
+                                <li>
+                                    <a href="#now"
+                                        style="text-decoration: none; font-size: 14px; padding-right: 25px; color: #000; margin-top: 5px;">Now
+                                        Showing</a>
+                                </li>
+
+                                <li>
+                                    <a href="#soon"
+                                        style="text-decoration: none; font-size: 14px; padding-right: 25px; color: #000; margin-top: 5px;">Coming
+                                        Soon</a>
+                                </li>
+
+                                <li>
+                                    <a href="#experiences"
+                                        style="text-decoration: none; font-size: 14px; padding-right: 25px; color: #000; margin-top: 5px;">Experiences</a>
+                                </li>
+
+                                <li>
+                                    <a href="#trailers"
+                                        style="text-decoration: none; font-size: 14px; padding-right: 25px; color: #000; margin-top: 5px;">Trailers</a>
+                                </li>
+
+                                <li>
+                                    <a href="#offers"
+                                        style="text-decoration: none; font-size: 14px; padding-right: 25px; color: #000; margin-top: 5px;">Offers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <!-- siting show  -->
+                        <div class="show-content button">
+                            <ul class="d-flex position-relative" style="margin:10px 0 0 160px;">
+                                <li>
+                                    <a href="#" style="text-decoration: none; padding-right: 30px; margin-top: 5px;">
+                                        <img src="assets/img/4dx_w6j2hfDR.webp" width="65px" style="margin: 20px 0;">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="text-decoration: none; padding-right: 30px; margin-top: 5px;">
+                                        <img src="assets/img/insignia_gC6IBziv.avif" width="75px"
+                                            style="margin: 20px 0;">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="text-decoration: none; padding-right: 30px; margin-top: 5px;">
+                                        <img src="assets/img/playhouse_fQHctGNd.avif" width="80px"
+                                            style="margin: 20px 0;">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- now showing start  -->
+    <section class="now" id="now" style="margin-left: 70px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="now-head mt-3">
+                        <span style=" font-size: 20px; font-weight: 800;">Now Showing</span>
+                    </div>
+                    <div class="img d-flex my-4">
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28714_5mhoaWzv.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">CREW</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Comedy </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/qqrpMRDuPfc" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28574_9bJxdgh5.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">GODZILLA X KONG :
+                                        THE ...
+                                    </h6>
+                                    <p class="m-0" style="color: #666;">U/A - Action </p>
+                                    <span style="color: #666; ">English/Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/B7VP47oCZfE" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28607_5918vQoe.jpg" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">MADGAON EXPRESS</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/3AuB8RTfBJc" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/27050_it0Gkrpv.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">YODHA</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Action +1more </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/upDhKSx7P7E" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29105_BhfkHIpx.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">SHAITAAN</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Thriller </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img d-flex my-4">
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/LQpxMRwS_bU" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28618_sbFUwI3f.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">SWATANTRYA VEER
+                                        SAVARK...</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Biography </p>
+                                    <span style="color: #666; ">Multiple</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="#" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/26895_4La7ehvB.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">Trailers Screening
+                                        Sho...</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/6Pf6RUmq7S0" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29104_lGXZN7Vb.jpg" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">ARTICLE 370</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/_inKs4eeHiI" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28708_7xfC7EqH.webp" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">KUNG FU PANDA 4</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Animation </p>
+                                    <span style="color: #666; ">English/Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/roX7EqczsUs" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28689_AyZ1bWU2.jpg" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">TILLU SQUARE</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Comedy </p>
+                                    <span style="color: #666; ">Telugu</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img d-flex my-4">
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/U_PZLg_syms" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28900_ZNQCZtyK.webp" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">KASOOMBO</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Thriller +1more </p>
+                                    <span style="color: #666; ">Gujarati</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/hGM87LCJxRc" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/28704_MWQ15Uh8.jpg" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">LAAPATAA LADIES</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Comedy </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/qvsiJKdDxPs" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29053_PVdVJ2Wo.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">AADUJEEVITHAM</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Malayalam</span>
+                                </div>
+                                <div class="button"
+                                    style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                    <span>Book Tickets</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/GfVaRzEWdfg" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29364_7KCUfZ2d.jpg" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">VANILLA ICE CREAM
+                                    </h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Gujarati</span>
+                                </div>
+                                <a href="seat.html">
+                                    <div class="button"
+                                        style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>Book Tickets</span>
+                                    </div>
+                                </a>
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/91iu2rTOjQ4" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29415_lkgBSc0X.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">THE LIGHT</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Animation </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                </div>
+                                <a href="seat.html">
+                                    <div class="button"
+                                        style="background-color: #234b9e; color: #fff; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>Book Tickets</span>
+                                    </div>
+                                </a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- soon comin start  -->
+    <section class="Soon mt-5" id="soon" style=" background-color: #DCE2EF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="now-head mt-3">
+                        <span style=" font-size: 20px; font-weight: 800;">Coming Soon</span>
+                    </div>
+
+                    <div class="img d-flex my-4">
+                        <div class="img1 me-4">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29755_wVNSDBA3.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">IRAH THE
+                                        IMMORTALITY...</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                    <h5 style="color: #808190; font-size: 18px; padding: 4px 0 0 0;">Releasing on Thu
+                                        Apr 04</h5>
+                                </div>
+
+                                <div class="col-12 d-flex">
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>View Details</span>
+                                    </div>
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 10px; width: 50px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <i class="fa-solid fa-bell" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-4">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29753_GqlYlRmY.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">KALVAN</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Tamil</span>
+                                    <h5 style="color: #808190; font-size: 18px; padding: 4px 0 0 0;">Releasing on Thu
+                                        Apr 04</h5>
+                                </div>
+                                <div class="col-12 d-flex">
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>View Details</span>
+                                    </div>
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 10px; width: 50px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <i class="fa-solid fa-bell" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-4">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29678_pBUIapeK.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">30 HOURS SURVIVAL
+                                        GUA...</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Drama </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                    <h5 style="color: #808190; font-size: 18px; padding: 4px 0 0 0;">Releasing on Fri
+                                        Apr 05</h5>
+                                </div>
+                                <div class="col-12 d-flex">
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>View Details</span>
+                                    </div>
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 10px; width: 50px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <i class="fa-solid fa-bell" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1 me-4">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29152_HbJkeYYa.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">CITY HUNTER THE
+                                        MOVIE:...</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Anime, Action, Comedy </p>
+                                    <span style="color: #666; ">Japanese</span>
+                                    <h5 style="color: #808190; font-size: 18px; padding: 4px 0 0 0;">Releasing on Fri
+                                        Apr 05</h5>
+                                </div>
+                                <div class="col-12 d-flex">
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>View Details</span>
+                                    </div>
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 10px; width: 50px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <i class="fa-solid fa-bell" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="img1">
+                            <a href="https://youtu.be/upDhKSx7P7E" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/29105_BhfkHIpx.avif" width="250" alt="">
+                                <div class="img-content mt-2">
+                                    <h6 style="color: #000; font-weight: 800; letter-spacing: 1px;">SHAITAAN</h6>
+                                    <p class="m-0" style="color: #666;">U/A - Thriller </p>
+                                    <span style="color: #666; ">Hindi</span>
+                                    <h5 style="color: #808190; font-size: 18px; padding: 4px 0 0 0;">Releasing on Thu
+                                        Apr 04</h5>
+                                </div>
+                                <div class="col-12 d-flex">
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 0; width: 150px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <span>View Details</span>
+                                    </div>
+                                    <div class="btt"
+                                        style="background-color: #fff; color: #234b9e; font-weight: 600; margin: 10px 10px; width: 50px; text-align: center; padding: 10px 0; border-radius: 10px;">
+                                        <i class="fa-solid fa-bell" style="font-size: 20px;"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experiences start  -->
+    <section class="Experiences mt-5" id="experiences">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="margin-left: 100px;">
+                    <div class="now-head mt-3">
+                        <span style=" font-size: 20px; font-weight: 800;">Experiences</span>
+                    </div>
+                    <div class="img d-flex my-4">
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/cinema1.webp" width="250" alt="">
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/cinema2.webp" width="250" alt="">
+                            </a>
+                        </div>
+                        <div class="img1 me-5">
+                            <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                <img src="assets/img/cinema3.webp" width="250" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trailers strt  -->
+    <section class="Trailers mt-5" id="trailers">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 position-relative" style="margin-left: 0px;">
+                    <div class="now-head mt-3">
+                        <span style=" font-size: 20px; font-weight: 800;">Trailers</span>
+                    </div>
+                    <div class="bg bg-secondary position-relative" style="width: 100%; height: 600px;">
+                        <div class="img d-flex my-4 bg-secondary position-absolute"
+                            style="width: 95%; top: 15px; left: 30px; text-align: center; height: 450px; box-shadow: 0px 0px 5px -2px black;">
+                        </div>
+                        <div class="images d-flex">
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/28714_5mhoaWzv.avif" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/27050_it0Gkrpv.avif" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/28704_MWQ15Uh8.jpg" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/29104_lGXZN7Vb.jpg" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/28900_ZNQCZtyK.webp" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/28607_5918vQoe.jpg" width="100" alt="">
+                                </a>
+                            </div>
+                            <div class="img1 me-5">
+                                <a href="https://youtu.be/pSNAS8ql-j8" target="_blank" style="text-decoration: none;">
+                                    <img src="assets/img/29364_7KCUfZ2d.jpg" width="100" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- offers start  -->
+    <section class="offer" id="offers"
+        style="background-color: #DCE2EF; padding: 50px 50px; padding-left: 100px; margin: 50PX 0 0 0;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offer-head mt-3">
+                    <h2 style="font-weight: 700;">Offers For You</h2>
+                </div>
+
+                <div class="col-12 d-flex" style=" margin: 20px 0;">
+                    <div class="col-6 d-flex">
+                        <div class="offer-box px-3" style="width: 50%; height: 300px;">
+                            <div class="offer-img" style=" border-radius: 10px 10px 0 0;">
+                                <img src="assets/img/11508_SHVQaMYB.avif" class="img-fluid"
+                                    style=" border-radius: 10px 10px 0 0;">
+                            </div>
+                            <div class="offer-content"
+                                style=" padding: 10px 10px; background-color: #fff; border-radius:0 0 10px 10px; height: 120px;">
+                                <h6 class="mb-3" style="font-size: 14px;">Federal Bank - Debit Card Buy 1 Get 1</h6>
+                                <div class="col-12 d-flex">
+                                    <div class="col-7">
+                                        <p class="mt-4" style="font-size: 16px;">Valid till: Wed, Dec 31, 2025</p>
+                                    </div>
+
+                                    <div class="col-4" style=" margin-top: 10px;">
+                                        <a href="Offers.html">
+                                            <div class="btt ms-5 mt-4"
+                                                style="background-color: #234b9e; color: white; width: 70px; text-align: center; padding: 5px 0; border-radius: 5px; font-size: 14px;">
+                                                View
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="offer-box px-3" style="width: 50%; height: 300px;">
+                            <div class="offer-img" style=" border-radius: 10px 10px 0 0;">
+                                <img src="assets/img/10411_04iYKHNw.avif" class="img-fluid"
+                                    style=" border-radius: 10px 10px 0 0;">
+                            </div>
+                            <div class="offer-content"
+                                style=" padding: 10px 10px; background-color: #fff; border-radius:0 0 10px 10px;  height: 120px;">
+                                <h6 class="mb-3" style="font-size: 14px;">Axis Bank Business Supreme Debit Card- Buy 1
+                                    Get 1</h6>
+                                <div class="col-12 d-flex">
+                                    <div class="col-7">
+                                        <p class="my-2" style="font-size: 16px;">Valid till: Sun, Jun 30, 2024</p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <a href="Offers.html">
+                                            <div class="button ms-5 mt-3"
+                                                style="background-color: #234b9e; color: white; width: 70px; text-align: center; padding: 5px 0; border-radius: 5px; font-size: 14px;">
+                                                View
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-flex">
+                        <div class="offer-box px-3" style="width: 50%; height: 300px;">
+                            <div class="offer-img" style=" border-radius: 10px 10px 0 0;">
+                                <img src="assets/img/11634_d8IqZGDB.avif" class="img-fluid"
+                                    style=" border-radius: 10px 10px 0 0;">
+                            </div>
+                            <div class="offer-content"
+                                style=" padding: 10px 10px; background-color: #fff; border-radius:0 0 10px 10px;  height: 120px;">
+                                <h6 class="mb-3" style="font-size: 16px;">Federal Bank Signet/Imperio Credit Card 1+1
+                                </h6>
+                                <div class="col-12 d-flex">
+                                    <div class="col-7">
+                                        <p class="my-2" style="font-size: 14px;">Valid till: Wed, Dec 31, 2025</p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <a href="Offers.html">
+                                            <div class="button ms-5 mt-3"
+                                                style="background-color: #234b9e; color: white; width: 70px; text-align: center; padding: 5px 0; border-radius: 5px; font-size: 14px;">
+                                                View
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="offer-box px-3" style="width: 50%; height: 300px;">
+                            <div class="offer-img" style=" border-radius: 10px 10px 0 0;">
+                                <img src="assets/img/11474_XsMmGtxo.avif" class="img-fluid"
+                                    style=" border-radius: 10px 10px 0 0;">
+                            </div>
+                            <div class="offer-content"
+                                style="padding: 10px 10px; background-color: #fff; border-radius:0 0 10px 10px;  height: 120px;">
+                                <h6 class="mb-3" style="font-size: 14px;">ICICI Bank - Debit Card 25% Off on Movie
+                                    Ticket</h6>
+                                <div class="col-12 d-flex">
+                                    <div class="col-7">
+                                        <p class="my-2" style="font-size: 16px;">Valid till: Sun, Jun 30, 2024</p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <a href="Offers.html">
+                                            <div class="button ms-5 mt-3"
+                                                style="background-color: #234b9e; color: white; width: 70px; text-align: center; padding: 5px 0; border-radius: 5px; font-size: 14px;">
+                                                View
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start  -->
+    <footer style="background-color: black; padding: 10px 10px; padding-left: 100px; ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex" style=" margin: 20px 0;">
+                    <div class="col-4 d-flex mt-2">
+                        <span style="color: #808190; font-size: 16px;" class="ms-0 me-3">Certification by:
+                            <img src="assets/img/foot1.png" class="me-3">
+                            <img src="assets/img/foot2.png" class="me-3">
+                        </span>
+                    </div>
+                    <div class="col-4 text-center">
+                        <div class="icons" style="color: #808190; font-size: 40px;">
+                            <a href="#" style="text-decoration: none; color: #808190;">
+                                <i class="fa-brands fa-square-facebook me-2"></i>
+                            </a>
+                            <a href="#" style="text-decoration: none; color: #808190;">
+                                <i class="fa-brands fa-instagram me-2"></i>
+                            </a>
+                            <a href="#" style="text-decoration: none; color: #808190;">
+                                <i class="fa-brands fa-youtube me-2"></i>
+                            </a>
+                            <a href="#" style="text-decoration: none; color: #808190;">
+                                <i class="fa-brands fa-x-twitter me-2"></i>
+                            </a>
+                            <a href="#" style="text-decoration: none; color: #808190;">
+                                <i class="fa-brands fa-linkedin me-2"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="foot-img mt-3 ms-1">
+                            <img src="assets/img/foot4.svg" class="ms-5" alt="">
+                            <img src="assets/img/foot3.svg" class="ms-4" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 py-3">
+                    <div class="footer-content d-flex" style=" color: #808190;">
+                        <div class="col-7">
+                            <span style=" font-size: 16px;">© 2024 All rights reserved</span>
+                        </div>
+                        <div class="col-5" style="text-align: center; font-size: 16px;">
+                            Privacy Policy   Terms & Conditions   Terms of Use
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- bootstrap link  -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- js link  -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+
+</body>
+
+</html>
